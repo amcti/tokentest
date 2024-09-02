@@ -26,7 +26,7 @@ contract DIOToken is ERC20Interface{
     mapping(address => mapping(address => uint)) allowed;
  
     constructor() {
-        _totalSupply = 1000000;
+        _totalSupply = 5000000;
         balances[msg.sender] = _totalSupply;
     }
  
